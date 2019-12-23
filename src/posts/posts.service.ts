@@ -2,12 +2,12 @@ import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { MongooseCrudService } from 'nest-crud-mongoose';
 import { Model } from 'mongoose';
-import { UserDocument } from './user.document';
+import { PostDocument } from './post.document';
 
 @Injectable()
-export class UsersService extends MongooseCrudService<UserDocument> {
+export class PostsService extends MongooseCrudService<PostDocument> {
 
-  constructor(@InjectModel('User') model: Model<UserDocument>) {
+  constructor(@InjectModel('Post') model: Model<PostDocument>) {
     super(model);
   }
 
