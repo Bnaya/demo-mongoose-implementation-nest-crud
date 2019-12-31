@@ -9,7 +9,6 @@ import { UsersService } from './users.service';
   },
 })
 @Controller('users')
-// @ts-ignore
 export class UsersController implements CrudController<User> {
 
   constructor(public service: UsersService) {

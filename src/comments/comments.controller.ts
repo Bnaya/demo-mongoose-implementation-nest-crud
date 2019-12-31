@@ -9,7 +9,6 @@ import { CommentsService } from './comments.service';
   },
 })
 @Controller('comments')
-// @ts-ignore
 export class CommentsController implements CrudController<Comment> {
 
   constructor(public service: CommentsService) {
