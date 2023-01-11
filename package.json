@@ -27,7 +27,7 @@
     "@nestjsx/crud": "4.4.1",
     "@nestjsx/crud-request": "^4.4.1",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.11.0",
+    "class-validator": "^0.14.0",
     "mongodb-memory-server": "^6.1.1",
     "mongoose": "^5.8.3",
     "nest-crud-mongoose": "0.0.5",
